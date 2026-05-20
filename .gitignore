@@ -1,0 +1,16 @@
+# Файлы данных (скрываем логи и результаты)
+raw_transactions.json
+analytics_vault/
+*.csv
+*.json
+
+# Системный кэш Python и Spark
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Системный мусор OS
+.DS_Store
+Thumbs.db
+.vscode/
